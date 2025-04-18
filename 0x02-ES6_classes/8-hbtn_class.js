@@ -7,26 +7,26 @@
 
 export default class ALXClass {
   constructor(size, location) {
-    this.size = size;
-    this.location = location;
+    this._size = size;
+    this._location = location;
   }
 
-/** returns size */
+  /** returns size */
   get size() {
     return this._size;
   }
 
-/** sets size */
+  /** sets size */
   set size(value) {
     this._size = value;
   }
 
-/** returns location */
+  /** returns location */
   get location() {
     return this._location;
   }
 
-/** sets location */
+  /** sets location */
   set location(value) {
     this._location = value;
   }
